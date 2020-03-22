@@ -1,0 +1,19 @@
+<% if @posts.empty? %>
+
+<div align="middle">
+	<h2>No entries for now. </h2><br>
+	You can add post from 
+	<%=link_to "that", new_post_path %> link
+</div> 
+<% end %>
+
+<% @posts.each do |post| %>
+
+
+	<h2><%=post.title%></h2>
+	<div><%=truncate(post.body, :length => 500)%><div>
+		<br>
+	<%= link_to "Read Post", post%>
+	<%= link_to "Edit Post", edit_post_path(post)%>
+	<%= link_to "Delete Post", post , method: :delete, data: { confirm: "Are you sure ??"} %>
+<% end %>
