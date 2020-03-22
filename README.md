@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+That's a introduction project for me to learn Ruby on Rails.
 
-Things you may want to cover:
+I know it's looking a bit simple but it helped me a lot. Especially made me understand the Rails project hierarchie. 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+For more information about Ruby on Rails you can visit : https://rubyonrails.org/
